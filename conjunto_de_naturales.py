@@ -2,7 +2,7 @@ import sys
 
 # Class to represent a set of the first 100 natural numbers
 # and find a missing number.
-class ConjuntoDeNaturales:
+class PrimerosCienNaturales:
     # Initializes the set with numbers from 1 to 100.
     def __init__(self):
         self.numbers = list(range(1, 101))
@@ -42,7 +42,7 @@ while True:
         number_to_extract = int(user_input)
         
         # Instantiates the class
-        finder = ConjuntoDeNaturales()
+        finder = PrimerosCienNaturales()
         
         # Extracts the number and validates the input
         finder.extract(number_to_extract)
